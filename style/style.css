@@ -1,0 +1,55 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .input-area {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    margin: 5px;
+    padding: 8px;
+    width: 200px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  #taskList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  .actions button {
+    margin-right: 5px;
+  }
+  
+  #status {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: green;
+  }
+  
